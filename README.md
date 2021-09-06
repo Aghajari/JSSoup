@@ -58,8 +58,7 @@ By the way, you can also use `const title = jssoup.load(html).titleEl()` for get
 - Let's use id for finding the element.
 ```js
 const html = `<html><head><test id='element_id'>This is a test</test></head></html>`
-const element = jssoup.load(html).getElementById('element_id')
-.findFirst('#element_id')
+const element = jssoup.load(html).getElementById('element_id') // or .findFirst('#element_id')
 console.log(element) // This is a test
 ```
 
