@@ -11,11 +11,11 @@
 
 ### Installation
 ```console
-npm i @amiraghajari/jssoup
+npm i @aghajari/jssoup
 ```
 
 ```js
-const jssoup = require('@amiraghajari/jssoup');
+const jssoup = require('@aghajari/jssoup');
 ```
 
 Let's fetch music lyrics from [Google](https://www.google.com/search?q=Hello+lyrics) :
