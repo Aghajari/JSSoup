@@ -170,6 +170,17 @@ const element = jssoup.load(html).getElementByAttr('data-id'); // or .findFirst(
 console.log(element.getAttribute('data-id')); // id1234
 ```
 
+## Attribute Expression
+- `=` : equal `[attr=value]`
+- `!=` : unequal `[attr!=value]`
+- `*=` : regex `[attr*=value]`
+- `^=` : regex /^pattern/ `[attr^=value]`
+- `$=` : regex /pattern$/ `[attr$=value]`
+- `|=` : startsWith `[attr|=value]`
+- `&=` : endsWith `[attr&=value]`
+- `%=` : contains `[attr%=value]`
+- `~=` : contains in list of words `[attr~=value]`<br>`<tag attr='blue red green'>` : `[attr~=red]`
+
 ## Author 
 - **Amir Hossein Aghajari**
 
