@@ -1,0 +1,16 @@
+{
+  "name": "jssoup",
+  "version": "1.0.0",
+  "description": "JSSoup: the JavaScript HTML DOM parser for node.js",
+  "main": "jssoup.js",
+  "dependencies": {
+    "iconv": "^3.0.0",
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "nodemon test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "APACHE-2.0"
+}
