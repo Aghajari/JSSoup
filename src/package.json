@@ -1,16 +1,24 @@
 {
-  "name": "jssoup",
-  "version": "1.0.0",
+  "name": "@amiraghajari/jssoup",
+  "version": "1.0.1",
   "description": "JSSoup: the JavaScript HTML DOM parser for node.js",
   "main": "jssoup.js",
   "dependencies": {
-    "iconv": "^3.0.0",
-    "nodemon": "^2.0.12"
-  },
-  "scripts": {
-    "start": "nodemon test.js"
+    "iconv": "^3.0.0"
   },
   "keywords": [],
-  "author": "",
-  "license": "APACHE-2.0"
+  "author": "AmirHossein Aghajari",
+  "license": "Apache-2.0",
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aghajari/JSSoup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aghajari/JSSoup/issues"
+  },
+  "homepage": "https://github.com/Aghajari/JSSoup#readme"
 }
