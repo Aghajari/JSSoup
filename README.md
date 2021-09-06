@@ -8,8 +8,14 @@
 - Supports CSS selectors.
 
 # Usage
+
+### Installation
+```console
+npm i @amiraghajari/jssoup
+```
+
 ```js
-const jssoup = require('./jssoup');
+const jssoup = require('jssoup');
 ```
 
 Let's fetch music lyrics from [Google](https://www.google.com/search?q=Hello+lyrics) :
