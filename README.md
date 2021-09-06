@@ -1,5 +1,5 @@
 # JSSoup
- **JSSoup** is a fast and reliable HTML DOM parser library for JavaScript, node.js based on [PHP: simplehtmldom](https://github.com/simplehtmldom/simplehtmldom) and [Java: Jsoup](https://github.com/jhy/jsoup)
+ **[JSSoup](https://www.npmjs.com/package/@aghajari/jssoup)** is a fast and reliable HTML DOM parser library for JavaScript, node.js based on [PHP: simplehtmldom](https://github.com/simplehtmldom/simplehtmldom) and [Java: Jsoup](https://github.com/jhy/jsoup)
 
 [![Join the chat at https://gitter.im/Aghajari/community](https://badges.gitter.im/Aghajari/community.svg)](https://gitter.im/Aghajari/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -9,7 +9,8 @@
 
 # Usage
 
-### Installation
+### Installation 
+
 ```console
 npm i @aghajari/jssoup
 ```
